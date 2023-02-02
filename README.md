@@ -4,11 +4,11 @@ Assignments from betasquirrel
 
 ## Requirements
 
-| requirements                     | Output |
-| -------------------------------- | ------ |
-| ![Task 1](screenshot/Task-1.jpg) | Two    |
-| ![Task 2](screenshot/Task-2.jpg) | Two    |
-| ![Task 4](screenshot/Task-4.jpg) | Two    |
+| requirements                 | Output                           |
+| ---------------------------- | -------------------------------- |
+| ![Task 1](images/task-1.jpg) | ![output](screenshot/Task-1.jpg) |
+| ![Task 2](images/task-2.jpg) | ![output](screenshot/Task-2.jpg) |
+| ![Task 4](images/task-4.jpg) | ![output](screenshot/Task-4.jpg) |
 
 ### Formatting
 
