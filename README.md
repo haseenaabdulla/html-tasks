@@ -4,11 +4,11 @@ Assignments from betasquirrel
 
 ## Requirements
 
-| requirements                 | Output                           |
-| ---------------------------- | -------------------------------- |
-| ![Task 1](images/task-1.jpg) | ![output](screenshot/Task-1.jpg) |
-| ![Task 2](images/task-2.jpg) | ![output](screenshot/Task-2.jpg) |
-| ![Task 4](images/task-4.jpg) | ![output](screenshot/Task-4.jpg) |
+| requirements                        | Output                           |
+| ----------------------------------- | -------------------------------- |
+| ![Task 1](task-1/images/task-1.jpg) | ![output](task-1/out/Task-1.jpg) |
+| ![Task 2](task-2/images/task-2.jpg) | ![output](task-2/out/Task-2.jpg) |
+| ![Task 4](task-4/images/task-4.jpg) | ![output](task-4/out/Task-4.jpg) |
 
 ### Formatting
 
@@ -53,3 +53,7 @@ Read the below pages andattend the tests
 
 - [Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
+
+## Task 6
+
+Live link of my website - https://haseenaabdulla.github.io/html-tasks/
