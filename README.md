@@ -2,6 +2,10 @@
 
 Assignments from betasquirrel
 
+## Demo
+
+[Live](https://haseenaabdulla.github.io/html-tasks/)
+
 ## Requirements
 
 | requirements                        | Output                           |
@@ -22,6 +26,9 @@ Sit excepteur ~~et in minim nostrud~~. Sint **fugiat commodo minim anim adipisic
 - 'ls' - List contents of a directory Ex: 'ls -a' lists hidden files as well.
 - 'pwd' - Display current working directory path.
 - 'cat' - Display contents of a file. Ex: 'cat README.md'
+- 'mkdir' - To create a folder. Ex:'mkdir task-1'
+- 'clear' - To clear git bash
+- 'rm -rf' - To remove a file/folder. Ex:
 
 ## Git Commands
 
@@ -30,6 +37,7 @@ Sit excepteur ~~et in minim nostrud~~. Sint **fugiat commodo minim anim adipisic
 3. 'git add' Add your file changes to git. Ex: 'git add .' , 'git add README.md'
 4. 'git commit' Commit changes to git. Ex: 'git commit -n "Initial commit"'
 5. 'git push' Push your local commits to remote repo. Ex: 'git push origin main'
+6. 'git pull' pull your tasks from repo
 
 ## Task 3
 
@@ -53,7 +61,3 @@ Read the below pages andattend the tests
 
 - [Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
-
-## Task 6
-
-Live link of my website - https://haseenaabdulla.github.io/html-tasks/
