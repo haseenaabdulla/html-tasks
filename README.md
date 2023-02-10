@@ -22,22 +22,22 @@ Sit excepteur ~~et in minim nostrud~~. Sint **fugiat commodo minim anim adipisic
 
 ## Linux Commands
 
-- 'cd' - Change current directory. Ex:'cd Desktop', 'cd ...'
-- 'ls' - List contents of a directory Ex: 'ls -a' lists hidden files as well.
-- 'pwd' - Display current working directory path.
-- 'cat' - Display contents of a file. Ex: 'cat README.md'
-- 'mkdir' - To create a folder. Ex:'mkdir task-1'
-- 'clear' - To clear git bash
-- 'rm -rf' - To remove a file/folder. Ex:
+- `cd` - Change current directory. Ex:`cd Desktop`, `cd ...`
+- `ls` - List contents of a directory Ex: `ls -a` lists hidden files as well.
+- `pwd` - Display current working directory path.
+- `cat` - Display contents of a file. Ex: `cat README.md`
+- `mkdir` - To create a folder. Ex:`mkdir task-1`
+- `clear` - To clear git bash
+- `rm -rf` - To remove a file/folder. Ex:
 
 ## Git Commands
 
-1. 'git config' Configure git user. Ex: 'git config --global user.name "haseenaabdulla"', 'git config --global user.email "haseenahmrs4@gmail.com"'
-2. 'git clone' Clone a remote git repo to your local. Ex: 'git clone https://github.com/haseenaabdulla/html-tasks.git' , 'git clone https://github.com/haseenaabdulla/html-tasks.git new-folder'
-3. 'git add' Add your file changes to git. Ex: 'git add .' , 'git add README.md'
-4. 'git commit' Commit changes to git. Ex: 'git commit -n "Initial commit"'
-5. 'git push' Push your local commits to remote repo. Ex: 'git push origin main'
-6. 'git pull' pull your tasks from repo
+1. `git config` Configure git user. Ex: `git config --global user.name "haseenaabdulla"`, `git config --global user.email "haseenahmrs4@gmail.com"`.
+2. `git clone` Clone a remote git repo to your local. Ex: `git clone https://github.com/haseenaabdulla/html-tasks.git` , `git clone https://github.com/haseenaabdulla/html-tasks.git new-folder`.
+3. `git add` Add your file changes to git. Ex: `git add .` , `git add README.md`
+4. `git commit` Commit changes to git. Ex: `git commit -n "Initial commit"`
+5. `git push` Push your local commits to remote repo. Ex: `git push origin main`
+6. `git pull` pull your tasks from repo
 
 ## Task 3
 
