@@ -14,12 +14,6 @@ Assignments from betasquirrel
 | ![Task 2](task-2/images/task-2.jpg) | ![output](task-2/images/Task-2-out.jpg) |
 | ![Task 4](task-4/images/task-4.jpg) | ![output](task-4/images/Task-4-out.jpg) |
 
-### Formatting
-
-Sit excepteur ~~et in minim nostrud~~. Sint **fugiat commodo minim anim adipisicing** consequat id enim _officia ullamco mollit_ amet. Pariatur et nulla ex commodo adipisicing et eiusmod exercitation in ad dolore labore commodo cillum. Esse officia incididunt nulla aute enim aliqua proident proident reprehenderit cupidatat qui.
-
-`git commit`
-
 ## Linux Commands
 
 - `cd` - Change current directory. Ex:`cd Desktop`, `cd ...`
