@@ -6,6 +6,12 @@ Assignments from betasquirrel
 
 [Live](https://haseenaabdulla.github.io/html-tasks/)
 
+## Profile Links
+
+- [GitHub](https://github.com/haseenaabdulla)
+- [LinkedIn](https://www.linkedin.com/in/haseena-p-a-5a1a55123/)
+- [Stackoverflow](https://stackoverflow.com/users/21198864/haseena-abdulla)
+
 ## Requirements
 
 | requirements                        | Output                                  |
