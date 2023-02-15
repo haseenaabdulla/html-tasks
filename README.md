@@ -9,7 +9,7 @@ Assignments from betasquirrel
 ## Profile Links
 
 - [GitHub](https://github.com/haseenaabdulla)
-- [LinkedIn](https://www.linkedin.com/in/haseena-p-a-5a1a55123/)
+- [LinkedIn](https://www.linkedin.com/in/haseena-pa/)
 - [Stackoverflow](https://stackoverflow.com/users/21198864/haseena-abdulla)
 
 ## Requirements
