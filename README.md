@@ -22,22 +22,30 @@ Assignments from betasquirrel
 
 ## Linux Commands
 
-- `cd` - Change current directory. Ex:`cd Desktop`, `cd ...`
+- `cd` - Change current directory. Ex:`cd Desktop`, `cd ..`
 - `ls` - List contents of a directory Ex: `ls -a` lists hidden files as well.
 - `pwd` - Display current working directory path.
 - `cat` - Display contents of a file. Ex: `cat README.md`
 - `mkdir` - To create a folder. Ex:`mkdir task-1`
-- `clear` - To clear git bash
-- `rm -rf` - To remove a file/folder. Ex:
+- `clear` - To clear terminal.
+- `rm` - To remove a file/folder. Ex: `rm my-file.txt` ,`rm -rf my-folder`
+- `ssh-keygen` - Generate ssh key. Ex: `ssh-keygen -t ed25519 -c "myemail@gmail.com"`
 
 ## Git Commands
 
-1. `git config` Configure git user. Ex: `git config --global user.name "haseenaabdulla"`, `git config --global user.email "haseenahmrs4@gmail.com"`.
-2. `git clone` Clone a remote git repo to your local. Ex: `git clone https://github.com/haseenaabdulla/html-tasks.git` , `git clone https://github.com/haseenaabdulla/html-tasks.git new-folder`.
-3. `git add` Add your file changes to git. Ex: `git add .` , `git add README.md`
-4. `git commit` Commit changes to git. Ex: `git commit -n "Initial commit"`
-5. `git push` Push your local commits to remote repo. Ex: `git push origin main`
-6. `git pull` pull your tasks from repo
+1. `git config` - Configure git user. Ex: `git config --global user.name "haseenaabdulla"`, `git config --global user.email "haseenahmrs4@gmail.com"`.
+2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/haseenaabdulla/html-tasks.git` , `git clone https://github.com/haseenaabdulla/html-tasks.git new-folder`.
+3. `git add` - Add your file changes to git. Ex: `git add .` , `git add README.md`
+4. `git commit` - Commit changes to git. Ex: `git commit -n "Initial commit"`
+5. `git push` - Push your local commits to remote repo. Ex: `git push origin main`
+6. `git pull` - pull your tasks from repo.
+7. `git config --list` - To see the config added.
+8. `git reset --hard` - remove all changes.
+9. `git status` - To see the current changes as list.
+10. `git diff` - See the changes on each file.
+11. `git log` - See commit history.
+12. `git stash` - Stash your uncommited changes.
+13. `git init` - Initialize git repo.
 
 ## Task 3
 
@@ -61,3 +69,7 @@ Read the below pages andattend the tests
 
 - [Favicon](https://www.w3schools.com/html/html_favicon.asp)
 - [Tables](https://www.w3schools.com/html/html_tables.asp)
+- [list](https://www.w3schools.com/html/html_lists.asp)
+- [Block&inline](https://www.w3schools.com/html/html_blocks.asp)
+- [classes](https://www.w3schools.com/html/html_classes.asp)
+- [Id](https://www.w3schools.com/html/html_id.asp)
