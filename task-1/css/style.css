@@ -36,15 +36,15 @@ body {
   margin-bottom: 15px;
 }
 #sub-container {
-  height: calc(100vh - 200px);
-  width: calc(100vw);
+  height: calc(100vh - 490px);
+  width: calc(100vw - 20px);
   overflow: hidden;
   margin: 0 auto;
 }
 .boxes {
   height: 200px;
   background-color: #fff;
-  width: calc((100vw / 3) - 45px);
+  width: calc((100vw / 3) - 38px);
   float: left;
   margin-bottom: 15px;
 }
@@ -67,5 +67,19 @@ div {
   }
   #sub-container {
     height: auto;
+    padding: 0px;
+  }
+  #main-container {
+    margin: 10px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 1300px) {
+  .right a {
+    display: none;
+  }
+  #sub-container {
+    height: auto;
+    padding: 0px;
   }
 }
