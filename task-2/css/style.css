@@ -21,6 +21,7 @@ body {
 }
 .left img {
   height: 60px;
+  margin-right: 15px;
 }
 .left h2 {
   display: inline;
@@ -33,7 +34,7 @@ body {
 }
 #Main-container {
   background-color: #d2d9e9;
-  height: 290px;
+  height: 250px;
   margin: 15px;
   display: flex;
   justify-content: space-between;
@@ -50,15 +51,6 @@ body {
   width: 300px;
   padding: 10px;
 }
-.content-1 {
-  float: left;
-  align-self: center;
-  margin-right: 5px;
-}
-.content-2 {
-  float: right;
-  align-self: center;
-}
 #secondary-container > div {
   height: 100%;
   background-color: #dadada;
@@ -68,14 +60,19 @@ body {
   .right a {
     display: none;
   }
+}
+@media only screen and (max-width: 900px) {
   #main-container {
-    width: calc((100%) - 60px);
+    width: calc((100vw) - 60px);
     flex-direction: column;
+    display: block;
     height: auto;
   }
   .content-1,
   .content-2 {
-    width: calc((100%) - 60px);
-    margin: 15px;
+    width: calc((100vw) - 60px);
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
   }
 }
