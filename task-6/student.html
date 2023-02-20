@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add-student</title>
+    <link rel="stylesheet" href="css/student-form.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="left" >
+            <img src="images/logo.png" alt="logo" />
+            <h2>One School</h2>
+        </div>
+        <div id="right">
+            <img src="images/image.jpg" alt="profile" />
+        </div>
+    </div>
+    <div id="main">
+        <div id="sidebar">
+            <nav>
+                <a href="#">STUDENTS</a>
+                <a href="#">STAFF</a>
+                <a href="#">EXAMS</a>
+            </nav>
+        </div>
+        <div id="container">
+            <h3>STUDENT REGISTRATION</h3>
+            <form>
+                <div class="upper">
+                    <div>
+                        <label for="fname"> 
+                            First Name <span class="red-text">*</span>:
+                        </label>
+                        <input type="text"  id="fname"  name="firstname"  placeholder="Enter your first name">
+                    </div>
+                    <div>
+                        <label for="lname">
+                            Last Name <span class="red-text">*</span>:
+                        </label>
+                        <input type="text" id="lname" name="Enter yourlastname" placeholder="Enter your last name" >
+                    </div>
+                    <div>
+                        <label for="phnno">
+                            Mobile<span class="red-text">*</span>:
+                        </label>
+                        <input type="tel" id="phnno" name="mobileno" placeholder="Enter your mobile number">
+                    </div>
+                    <div>
+                        <label for="email">
+                            Email<span class="red-text">*</span>:
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for="branchname">
+                            Branch <span class="red-text">*</span>:
+                        </label>
+                        <select id="branch" name="branch">
+                            <option value="branch select">Select branch you like</option>
+                            <option value="ba malayalam">BA MALAYALAM</option>
+                            <option value="ba arabic">BA ARABIC</option>
+                            <option value="ba english">BA ENGLISH</option>
+                            <option value="ba history">BA HISTORY</option>
+                            <option value="bsc botany">BSC BOTANY</option>
+                            <option value="ba physical education">BA PHYSICAL EDUCATION</option>
+                            <option value="bsc mathematics">BSc MATHEMATICS</option>
+                            <option value="bcom">BCom</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="hostel">Do You Need Hostel Facility :</label>
+                        <input type="radio" id="hostel" name="hostel" > Yes
+                        <input type="radio" name="hostel" id="hostel" > No
+                    </div>
+                    <div>
+                        <label for="subject">Choose Additional Subjects :</label>
+                        <input type="checkbox" id="subject" name="subject"> Cyber Security 
+                        <input type="checkbox" name="subject" id="subject"> Artificial Intelligence
+                        <input type="checkbox" id="subject" name="subject"> Block Chain
+                        <input type="checkbox" name="subject" id="subject"> IoT
+                        <input type="checkbox" id="subject" name="subject"> Robotics
+                    </div>
+                    <div>
+                        <label for="address">
+                            Permanent address<span class="red-text">*</span>:
+                        </label>
+                        <textarea name="address" id="address" cols="30" rows="10">Enter your full address</textarea>
+                    </div>
+                </div>
+                    <input type="reset" value="clear">
+                    <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    </body>
+    </html>

@@ -56,7 +56,7 @@ body {
 }
 #sidebar nav a {
   text-decoration: none;
-  color: #717171;
+  color: #838383;
   padding: 5px;
 }
 #sidebar nav a:first child {
@@ -68,43 +68,49 @@ body {
   width: calc(100vw - 227px);
 }
 #container h3 {
-  color: #555;
+  color: #6e6e6e;
   margin: 0 0 15px 0;
   text-decoration: underline;
 }
-.first-line {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
+.upper {
+  width: (100vw);
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-.student nav {
-  background-color: #3aba89;
-  padding: 5px;
-  margin-bottom: 5px;
+.upper div {
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  color: #737373;
 }
-.student nav a {
+.red-text {
+  color: red;
+}
+input[type="submit"],
+input[type="reset"] {
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 16px 32px;
   text-decoration: none;
-  color: #ffffff;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-.table table {
+input[type="reset"] {
+  background-color: #ff7261;
+}
+input[type="submit"] {
+  background-color: #3bb989;
+}
+textarea {
   width: 100%;
-}
-.table table,
-th,
-td {
-  color: #555;
-  padding: 5px;
-  border: 1px solid #aeaeae;
-  border-collapse: collapse;
-}
-@media only screen and (max-width: 650px) {
-  #sidebar {
-    display: none;
-  }
-  #container {
-    display: block;
-  }
-  .table {
-    width: auto;
-  }
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
