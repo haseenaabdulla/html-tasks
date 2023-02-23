@@ -74,3 +74,21 @@ Read the below pages andattend the tests
 - [classes](https://www.w3schools.com/html/html_classes.asp)
 - [Id](https://www.w3schools.com/html/html_id.asp)
 - [Form](https://www.w3schools.com/css/css_form.asp)
+
+## Responsive Design Dimensions
+
+- xs ( <576 )
+
+- sm ( >=576 )
+
+- md ( >=768 )
+
+- lg ( >=992 )
+
+- xl ( >=1200 )
+
+- xxl ( >=1400 )
+
+- mobile `@media only screen and (max-width: 767px) {}`
+
+- tablet `@media only screen and (max-width: 991px) and (min-width: 768px) {}`

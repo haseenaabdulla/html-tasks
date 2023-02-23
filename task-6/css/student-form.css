@@ -63,6 +63,7 @@ body {
   padding-top: 0;
 }
 #container {
+  width: 100vw;
   padding: 25px;
   float: left;
   width: calc((100vw) - 227px);
@@ -73,14 +74,14 @@ body {
   text-decoration: underline;
 }
 .upper-formside {
-  width: 100%;
+  width: calc(100vw);
   display: inline-block;
   box-sizing: border-box;
-  padding-right: 400px;
+  padding-right: 600px;
 }
 .upper-formside div {
   margin-bottom: 5px;
-  color: #555555;
+  color: #5e5e5e;
 }
 .input-box {
   padding: 5px 150px 5px 5px;
@@ -88,18 +89,18 @@ body {
 .input-box-branch {
   padding: 5px 125px 5px 5px;
 }
-.hostel-line {
-  text-align: start;
+.border-box {
+  border: 2px solid #5e5e5e;
 }
 .focus:focus {
-  border: 3px solid #555;
+  border: 2px solid #555;
   background-color: lightblue;
 }
 .red-text {
   color: red;
 }
-input[type="submit"],
-input[type="reset"] {
+input[type="reset"],
+input[type="submit"] {
   border: none;
   border-radius: 30px;
   color: white;
@@ -115,7 +116,7 @@ input[type="submit"] {
   background-color: #3bb989;
 }
 .address-space {
-  width: (100vw);
+  width: (100%);
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -131,13 +132,28 @@ input[type="submit"] {
 }
 #last-line {
   float: right;
-  padding-right: 150px;
+  margin-right: 200px;
 }
 @media only screen and (max-width: 650px) {
   #sidebar {
     display: none;
   }
-  #container {
+  #main {
+    height: (100vh);
+    overflow: auto;
+  }
+  .upper-formside div {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  #one,
+  #two,
+  #three {
     display: block;
+    margin-bottom: 10px;
+  }
+  #last-line {
+    float: left;
+    margin-right: 0px;
   }
 }

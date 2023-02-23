@@ -65,7 +65,7 @@ body {
 #container {
   padding: 25px;
   float: left;
-  width: calc(100vw - 227px);
+  width: calc((100vw) - 227px);
 }
 #container h3 {
   color: #555;
@@ -102,11 +102,11 @@ td {
     display: none;
   }
   #container {
-    width: 100%;
+    width: calc((100vw) - 30px);
   }
   .table {
     display: flex;
-    width: 100%;
+    width: auto;
     overflow: auto;
   }
   .student nav {
