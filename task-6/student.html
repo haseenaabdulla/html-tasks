@@ -28,7 +28,7 @@
         <div id="container">
             <h3>STUDENT REGISTRATION</h3>
             <form>
-                <div class="upper">
+                <div class="upper-formside">
                     <div id="one">
                         <div>
                             <div>
@@ -37,17 +37,17 @@
                                 </label>
                             </div>
                             <div>
-                                <input type="text"  id="fname"  name="firstname"  placeholder="Enter your first name">
+                                <input type="text"  id="fname"  name="firstname"  placeholder="Enter your first name" class="input-box focus ">
                             </div>
                         </div>
-                        <div>
+                        <div >
                             <div>
                                 <label for="lname">
                                     Last Name <span class="red-text">*</span>:
                                 </label>
                             </div>
-                            <div>
-                                <input type="text" id="lname" name="Enter yourlastname" placeholder="Enter your last name" >
+                            <div >
+                                <input type="text" id="lname" name="Enter yourlastname" placeholder="Enter your last name" class="input-box  focus ">
                             </div>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                                     Mobile<span class="red-text">*</span>:
                                 </label>
                             </div>
-                            <div>
-                                <input type="tel" id="phnno" name="mobileno" placeholder="Enter your mobile number">
+                            <div >
+                                <input type="tel" id="phnno" name="mobileno" placeholder="Enter your mobile number" class="input-box focus ">
                             </div>
                         </div>
                         <div>
@@ -68,8 +68,8 @@
                                     Email<span class="red-text">*</span>:
                                 </label>
                             </div>
-                            <div>
-                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                            <div >
+                                <input type="email" id="email" name="email" placeholder="Enter your email" class="input-box  focus">
                             </div>
                         </div>
                     </div>
@@ -80,9 +80,9 @@
                                     Branch <span class="red-text">*</span>:
                                 </label>
                             </div>
-                            <div>
-                                <select id="branch" name="branch">
-                                    <option value="branch select">Select branch you like</option>
+                            <div >
+                                <select id="branch" name="branch" placeholder="select branch you like" class="input-box-branch focus ">
+                                    <option value="">Select branch you like</option>
                                     <option value="ba malayalam">BA MALAYALAM</option>
                                     <option value="ba arabic">BA ARABIC</option>
                                     <option value="ba english">BA ENGLISH</option>
@@ -94,11 +94,11 @@
                                 </select>
                             </div>
                         </div>
-                        <div>
-                            <div>
+                        <div >
+                            <div class="hostel-line">
                                 <label for="hostel">Do You Need Hostel Facility :</label>
                             </div>
-                            <div>
+                            <div class="input-box">
                                 <input type="radio" id="hostel" name="hostel" > Yes
                                 <input type="radio" name="hostel" id="hostel" > No
                             </div>
@@ -123,7 +123,7 @@
                             </label>
                         </div>
                         <div>
-                            <textarea name="address" id="address" cols="30" rows="7">Enter your full address</textarea>
+                            <textarea name="address" id="address" cols="30" rows="7" placeholder="Enter your full address" class="address-space focus"></textarea>
                         </div>
                     </div>
                 </div>

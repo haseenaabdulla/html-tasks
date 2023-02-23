@@ -102,9 +102,17 @@ td {
     display: none;
   }
   #container {
-    display: block;
+    width: 100%;
   }
   .table {
-    width: auto;
+    display: flex;
+    width: 100%;
+    overflow: auto;
+  }
+  .student nav {
+    float: right;
+  }
+  .student nav a {
+    padding-right: 30px;
   }
 }
