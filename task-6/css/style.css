@@ -97,7 +97,7 @@ td {
   border: 1px solid #aeaeae;
   border-collapse: collapse;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 767px) {
   #sidebar {
     display: none;
   }

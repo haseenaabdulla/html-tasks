@@ -134,7 +134,7 @@ input[type="submit"] {
   float: right;
   margin-right: 200px;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 767px) {
   #sidebar {
     display: none;
   }
@@ -155,5 +155,15 @@ input[type="submit"] {
   #last-line {
     float: left;
     margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  #sidebar {
+    width: 130px;
+    height: 100%;
+  }
+  #main {
+    height: 100%;
   }
 }
