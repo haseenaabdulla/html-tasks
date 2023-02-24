@@ -157,6 +157,14 @@ input[type="submit"] {
     display: block;
     margin-bottom: 10px;
   }
+  .radio-box {
+    padding: 0px;
+  }
+  .hostel-line {
+    float: left;
+    width: calc(((100vw) / 2) - 15px);
+    flex-direction: column;
+  }
   #last-line {
     float: left;
     margin-right: 0px;
