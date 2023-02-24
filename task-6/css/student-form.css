@@ -125,10 +125,15 @@ input[type="submit"] {
   resize: none;
 }
 #one,
-#two,
-#three {
+#two {
   display: flex;
   justify-content: space-between;
+}
+#three {
+  display: flex;
+}
+.radio-box {
+  padding-left: 245px;
 }
 #last-line {
   float: right;
