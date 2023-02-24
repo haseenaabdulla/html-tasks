@@ -159,11 +159,18 @@ input[type="submit"] {
   }
   .radio-box {
     padding-left: 0px;
+    padding-bottom: 0px;
   }
   .hostel-line {
     float: left;
+    flex-direction: column;
     width: calc(((100vw) / 2) - 15px);
     flex-direction: column;
+  }
+  .add-ons {
+    display: block;
+    float: left;
+    width: calc((100vw) - 20px);
   }
   #last-line {
     float: left;
