@@ -92,3 +92,7 @@ Read the below pages andattend the tests
 - mobile `@media only screen and (max-width: 767px) {}`
 
 - tablet `@media only screen and (max-width: 991px) and (min-width: 768px) {}`
+
+## Task 7
+
+- [task 7](https://www.figma.com/file/y5P0uAo6yuz1855bYZnmNA/car-wash?node-id=55%3A110&t=JBnHpNeGhM4qZecr-1)
