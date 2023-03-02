@@ -188,7 +188,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 15px 30px 30px 30px;
+  padding: 15px;
 }
 #sidebar nav a.active {
   color: #26a776;
@@ -200,4 +200,12 @@ body {
 }
 #sidebar nav a:first child {
   padding-top: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  height: 20px;
+  margin-right: 10px;
 }

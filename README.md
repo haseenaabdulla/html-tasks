@@ -14,11 +14,13 @@ Assignments from betasquirrel
 
 ## Requirements
 
-| requirements                        | Output                                  |
-| ----------------------------------- | --------------------------------------- |
-| ![Task 1](task-1/images/task-1.jpg) | ![output](task-1/images/task-1-out.jpg) |
-| ![Task 2](task-2/images/task-2.jpg) | ![output](task-2/images/Task-2-out.jpg) |
-| ![Task 4](task-4/images/task-4.jpg) | ![output](task-4/images/Task-4-out.jpg) |
+| requirements                          | Output                                    |
+| ------------------------------------- | ----------------------------------------- |
+| ![Task 1](task-1/images/task-1.jpg)   | ![output](task-1/images/task-1-out.jpg)   |
+| ![Task 2](task-2/images/task-2.jpg)   | ![output](task-2/images/Task-2-out.jpg)   |
+| ![Task 4](task-4/images/task-4.jpg)   | ![output](task-4/images/Task-4-out.jpg)   |
+| ![Task 6](task-6/images/task-6-1.jpg) | ![output](task-6/images/task-6-1-out.png) |
+| ![Task 6](task-6/images/task-6-2.jpg) | ![output](task-6/images/task-6-2-out.png) |
 
 ## Linux Commands
 
@@ -96,3 +98,14 @@ Read the below pages andattend the tests
 ## Task 7
 
 - [task 7](https://www.figma.com/file/y5P0uAo6yuz1855bYZnmNA/car-wash?node-id=55%3A110&t=JBnHpNeGhM4qZecr-1)
+
+### Favicon Links
+
+1. [To extract favicon from logo image](https://realfavicongenerator.net/)
+2. [To create a favicon](https://favicon.io/)
+
+- [To get free icons](https://dryicons.com/)
+- [To search for an icon](https://www.iconfinder.com/)
+
+- [windows 10&11 tile colour header](<meta name="msapplication-TileColor" content="#da532c">)
+- [Theme colour header](<meta name="theme-color" content="#ffffff">)

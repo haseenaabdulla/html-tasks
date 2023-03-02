@@ -116,3 +116,11 @@ td {
     padding-right: 30px;
   }
 }
+.flex {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  height: 25px;
+  margin-right: 15px;
+}
