@@ -4,7 +4,8 @@ Assignments from betasquirrel
 
 ## Demo
 
-[Live](https://haseenaabdulla.github.io/html-tasks/)
+- [Live](https://haseenaabdulla.github.io/html-tasks/)
+- [Figma](https://www.figma.com/file/y5P0uAo6yuz1855bYZnmNA/car-wash?node-id=55%3A110&t=JBnHpNeGhM4qZecr-1)
 
 ## Profile Links
 
@@ -96,8 +97,6 @@ Read the below pages andattend the tests
 - tablet `@media only screen and (max-width: 991px) and (min-width: 768px) {}`
 
 ## Task 7
-
-- [task 7](https://www.figma.com/file/y5P0uAo6yuz1855bYZnmNA/car-wash?node-id=55%3A110&t=JBnHpNeGhM4qZecr-1)
 
 ### Favicon Links
 
