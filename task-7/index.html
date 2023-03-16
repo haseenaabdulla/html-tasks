@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=9645781792, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc-box">
+            <form>
+                <div class="display-box">
+                    <input type="text" name="display" class="display">
+                </div>
+                <div class="row-1">
+                    <button type="button" class="btn btn-danger" onclick="display.value =''">
+                        <i class="fa-solid fa-a"></i>
+                        <i class="fa-solid fa-c"></i>
+                    </button>
+                    <button type="button" class="btn btn-danger" onclick="display.value = display.value.toString().slice(0,-1)">
+                        <i class="fa-solid fa-d"></i>
+                        <i class="fa-solid fa-e"></i>
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='.'">
+                        .
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='/'">
+                        <i class="fa-solid fa-divide"></i>
+                    </button>
+                 </div>
+                 <div class="row-2">
+                    <button type="button" class="btn btn-dark" onclick="display.value +='7'">
+                    <i class="fa-solid fa-7"></i>   
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='8'">
+                    <i class="fa-solid fa-8"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='9'">
+                        <i class="fa-solid fa-9"></i>        
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='*'">
+                        <i class="fa-solid fa-xmark"></i>   
+                    </button>
+                 </div>
+                 <div class="row-3">
+                    <button type="button" class="btn btn-dark" onclick="display.value +='4'">
+                    <i class="fa-solid fa-4"></i>   
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='5'">
+                    <i class="fa-solid fa-5"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='6'">
+                    <i class="fa-solid fa-6"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='+'">
+                        <i class="fa-solid fa-plus"></i>   
+                    </button>
+                 </div>
+                 <div class="row-4">
+                    <button type="button" class="btn btn-dark" onclick="display.value +='1'">
+                    <i class="fa-solid fa-1"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='2'">
+                    <i class="fa-solid fa-2"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='3'">
+                    <i class="fa-solid fa-3"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='-'">
+                        <i class="fa-solid fa-minus"></i>    
+                    </button>
+                 </div>
+                 <div class="row-5">
+                    <button type="button" class="btn btn-dark" onclick="display.value +='00'">
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-solid fa-0"></i> 
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="display.value +='0'">
+                    <i class="fa-solid fa-0"></i>    
+                    </button>
+                    <button type="button" class="btn btn-dark equal">
+                        <i class="fa-solid fa-equals"></i> 
+                    </button>
+                 </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
