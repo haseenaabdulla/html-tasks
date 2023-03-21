@@ -26,7 +26,7 @@ body {
   justify-content: flex-end;
   margin: 20px 0px;
 }
-.display {
+#display {
   text-align: right;
   flex: 1;
   font-size: 28px;

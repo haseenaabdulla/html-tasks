@@ -98,6 +98,8 @@ Read the below pages andattend the tests
 
 ## Task 7
 
+- [Calculator]
+
 ### Favicon Links
 
 1. [To extract favicon from logo image](https://realfavicongenerator.net/)
@@ -106,5 +108,34 @@ Read the below pages andattend the tests
 - [To get free icons](https://dryicons.com/)
 - [To search for an icon](https://www.iconfinder.com/)
 
-- [windows 10&11 tile colour header](<meta name="msapplication-TileColor" content="#da532c">)
-- [Theme colour header](<meta name="theme-color" content="#ffffff">)
+- [windows 10&11 tile color header](<meta name="msapplication-TileColor" content="#da532c">)
+- [Theme color header](<meta name="theme-color" content="#ffffff">)
+
+### Fontawsome
+
+- [link](https://fontawesome.com/search?m=free&o=r)
+
+## Input Types
+
+1. text
+2. email
+3. tel
+4. radio
+5. checkbox
+6. submit
+7. reset
+8. color
+9. url
+10. date
+11. time
+12. week
+13. month
+14. datetime-local
+15. button
+16. password
+17. hidden
+18. file
+19. number min max step
+20. range
+21. search
+22. image
